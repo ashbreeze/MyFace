@@ -1,0 +1,31 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "robbiehotz13@gmail.com",
+    "longName": "MyFace",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_KEY_ROBOTO_CONDENSED_21",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Roboto-Bold.ttf",
+                "name": "FONT_KEY_ROBOTO_BOLD_SUBSET_49",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "MyFace",
+    "uuid": "47c617f9-e22e-4310-b3a3-119dd31fd285",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
