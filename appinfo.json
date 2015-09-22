@@ -9,13 +9,19 @@
     "resources": {
         "media": [
             {
-                "file": "fonts/Roboto-Condensed.ttf",
-                "name": "FONT_KEY_ROBOTO_CONDENSED_21",
-                "type": "font"
+                "file": "images/menu_icon_myface.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
             },
             {
                 "file": "fonts/Roboto-Bold.ttf",
                 "name": "FONT_KEY_ROBOTO_BOLD_SUBSET_49",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_KEY_ROBOTO_CONDENSED_21",
                 "type": "font"
             }
         ]
