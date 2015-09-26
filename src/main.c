@@ -47,7 +47,7 @@ static void handle_second_tick(struct tm *tick_time, TimeUnits units_changed) {
   }
   text_layer_set_text(s_time_layer, s_time_text);
   
-  strftime(s_day_text, sizeof(s_day_text), "Wednesday", tick_time);
+  strftime(s_day_text, sizeof(s_day_text), "%A", tick_time);
   text_layer_set_text(s_day_layer, s_day_text);
   
   layer_mark_dirty(window_get_root_layer(s_main_window));
